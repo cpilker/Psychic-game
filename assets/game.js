@@ -5,6 +5,8 @@
         var losses = 0;
         var guessesRemaining = 9;
         var userGuess = [];
+        
+
 
         document.onkeyup = function(event) {
     
@@ -40,7 +42,11 @@
              guessesRemaining--;
              document.getElementById("guesses-left").innerHTML = guessesRemaining;
          }
-    
 
         }
-    
+
+
+
+        
+        
+
